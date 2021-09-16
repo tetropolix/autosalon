@@ -1,0 +1,46 @@
+.NavLink {
+  color: white;
+  margin: 0;
+  padding: 3px 3%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.DrawerLink {
+  color: black;
+  text-decoration: none;
+  margin: 15px 5px;
+}
+
+.menuIcon:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 701px) {
+    .NavLink {
+      display: block;
+    }
+  
+    .menuIcon{
+        display: none;
+    }
+  
+    .Drawer{
+        display:none
+    }
+  }
+
+@media screen and (max-width: 700px) {
+  .NavLink {
+    display: none;
+  }
+
+  .menuIcon{
+      display: block;
+  }
+
+  .Drawer{
+      display:block
+  }
+}

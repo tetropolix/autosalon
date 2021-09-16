@@ -1,0 +1,8 @@
+.div {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 66%;
+    margin: auto;
+}
